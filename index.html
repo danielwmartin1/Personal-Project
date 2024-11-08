@@ -29,8 +29,12 @@
     <h2 id="experience">Experience</h2>
     <p>With over 5 years of hands-on experience in web development, I have honed my skills in HTML, CSS, JavaScript, and various modern frameworks. My journey has been enriched by working on diverse projects that range from small business websites to large-scale web applications. This practical experience has provided me with a deep understanding of web technologies.</p>
     </div>
+    </div>
     <footer>
         <p>Daniel Martin &copy; <span id="foot"></span></p>
     </footer>
+    <script>
+        document.getElementById('foot').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
