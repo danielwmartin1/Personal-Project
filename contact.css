@@ -1,0 +1,42 @@
+button {
+    background-color: rgb(33, 66, 150);
+    color: aqua;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: red;
+    cursor: pointer;
+}
+
+button:active {
+    color: rgb(0, 255, 30);
+    background-color: blue;
+}
+
+.section {
+    margin: 0.5rem;
+}
+
+div>.container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    color: aqua;
+    text-decoration: none;
+    font-size: 14px
+}
+
+.link:hover {
+    color: yellow;
+}
+
+.link:active {
+    color: rgb(38, 104, 128);
+}
