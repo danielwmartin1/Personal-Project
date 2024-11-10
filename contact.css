@@ -16,7 +16,7 @@ button:active {
 }
 
 .section {
-    margin: 0.5rem;
+    margin: 1rem;
 }
 
 div>.container {
@@ -39,4 +39,9 @@ div>.container {
 
 .link:active {
     color: rgb(38, 104, 128);
+}
+
+#anchor {
+    color: aqua;
+    text-decoration: none;
 }
