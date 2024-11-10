@@ -30,9 +30,6 @@ body {
     color: #61dafb;
 }
 
-
-/* Removed redundant :active:hover pseudo-class */
-
 .about-me-email:focus {
     color: #61dafb;
 }
