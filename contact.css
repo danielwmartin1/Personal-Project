@@ -1,41 +1,20 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
+button {
+    background-color: rgb(33, 66, 150);
+    color: aqua;
+    padding: 10px;
+    border-radius: 5px;
 }
-.container {
-    width: 50%;
-    margin: 50px auto;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-label {
-    display: block;
-    margin-top: 10px;
-    font-weight: bold;
-}
-input[type=text], input[type=email], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-button[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
+
+button:hover {
+    color: red;
     cursor: pointer;
-    font-size: 16px;
 }
-button[type=submit]:hover {
-    background-color: #45a049;
+
+button:active {
+    color: rgb(0, 255, 30);
+    background-color: blue;
+}
+
+.section {
+    margin: 1rem;
 }
