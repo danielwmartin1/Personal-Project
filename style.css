@@ -42,6 +42,8 @@ body {
     width: 90%;
     margin: auto;
     overflow: auto;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
 }
 
 footer {
