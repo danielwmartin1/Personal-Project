@@ -191,6 +191,80 @@ header ul {
     color: #fff;
 }
 
+/* Form Styling */
+ color: #fff;
+    justify-content: center;
+    background-position: center;
+    min-height: 50vh;
+    background-color: transparent;
+}
+
+.main h1 {
+    font-size: 2em;
+    color: #282c34;
+}
+
+.main p {
+    line-height: 1.6;
+    text-align: center;
+}
+
+.menu-toggle {
+    cursor: pointer;
+    background-color: #61dafb;
+    color: #282c34 !important;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    display: none;
+    margin: 0 auto;
+}
+
+.menu-toggle:hover {
+    background-color: #0fa9c1;
+}
+
+.section {
+    padding: 20px;
+    margin: 20px 0;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#about_main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#experience {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#name {
+    font-size: 2em;
+    color: #fff;
+}
+
+#profile {
+    margin-bottom: 20px;
+    border-radius: 50%;
+    width: 150px;
+}
+
+#tech {
+    text-align: center;
+    color: #fff;
+}
+
+
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .container {
@@ -199,10 +273,6 @@ header ul {
         
     footer {
         padding: auto;
-    footer {
-        padding: 10px;
-    }
-        padding: 15px;
     }
 
     .main h1 {
