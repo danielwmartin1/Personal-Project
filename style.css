@@ -35,8 +35,13 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 90%;
     margin: auto;
+    overflow: auto;
 }
 
 footer {
@@ -187,14 +192,6 @@ header ul {
 #tech {
     text-align: center;
     color: #fff;
-}
-
-/* Form Styling */
- color: #fff;
-    justify-content: center;
-    background-position: center;
-    min-height: 50vh;
-    background-color: transparent;
 }
 
 .main h1 {
