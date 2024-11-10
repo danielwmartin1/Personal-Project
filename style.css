@@ -14,14 +14,13 @@ body {
     font-family: 'Roboto', sans-serif;
     background-size: cover;
     line-height: 1.6;
-    background-image: url("images/smoke.jpg");
+    background-image: url("../images/smoke.jpg");
     background-repeat: no-repeat;
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: auto;
-    overflow: hidden;
 }
 
 #experience {
@@ -30,6 +29,13 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#tech {
+    margin-top: 0;
+    text-align: center;
+    color: #fff;
 }
 
 header {
@@ -68,6 +74,26 @@ header li {
     padding: 0 20px;
 }
 
+.logos {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 3rem;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .main {
     padding: 20px;
     display: flex;
@@ -75,7 +101,6 @@ header li {
     align-items: center;
     color: #fff;
     justify-content: center;
-    height: 78.5vh;
     background-position: center;
 }
 
@@ -122,13 +147,11 @@ header li {
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
+    position: relative;
     width: 100%;
     background-color: #183250;
     color: #fff;
     text-align: center;
-    padding: 20px;
     border-top: 3px solid #61dafb;
 }
 
@@ -181,7 +204,7 @@ footer {
         padding: 10px;
     }
 
-    .container .main {
+    .main {
         padding: 20px;
     }
 
