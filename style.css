@@ -31,11 +31,7 @@ body {
 }
 
 
-
-
-.about-me-email:active:hover {
-    color: #0fa9c1;
-}
+/* Removed redundant :active:hover pseudo-class */
 
 .about-me-email:focus {
     color: #61dafb;
@@ -203,9 +199,9 @@ header ul {
         
     footer {
         padding: auto;
+    footer {
+        padding: 10px;
     }
-
-    .main {
         padding: 15px;
     }
 
