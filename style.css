@@ -13,6 +13,34 @@ body {
     background-repeat: no-repeat;
 }
 
+.about-me-email {
+    color: #61dafb;
+    text-decoration: none;
+}
+
+.about-me-email:hover {
+    color: #0fa9c1;
+}
+
+.about-me-email:active {
+    color: #124047;
+}
+
+.about-me-email:visited {
+    color: #61dafb;
+}
+
+
+
+
+.about-me-email:active:hover {
+    color: #0fa9c1;
+}
+
+.about-me-email:focus {
+    color: #61dafb;
+}
+
 .container {
     width: 90%;
     margin: auto;
