@@ -177,7 +177,6 @@ header ul {
     border-radius: 5px;
 }
 
-
 #experience {
     display: flex;
     flex-wrap: wrap;
@@ -263,9 +262,38 @@ header ul {
     width: 150px;
 }
 
-
+.logo-container {
+    width: 100%;
+}
 
 /* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .container {
+        width: 95%;
+    }
+
+    .main h1 {
+        font-size: 1.8em;
+    }
+
+    .main p {
+        font-size: 1.1em;
+    }
+
+    #name {
+        font-size: 1.8em;
+    }
+
+    #profile {
+        width: 130px;
+    }
+
+    .logos {
+        grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+        gap: 2.5rem;
+    }
+}
+
 @media (max-width: 768px) {
     .container {
         width: 90%;
