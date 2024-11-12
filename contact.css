@@ -6,7 +6,7 @@ button {
 }
 
 button:hover {
-    color: red;
+    color: yellow;
     cursor: pointer;
 }
 
@@ -16,7 +16,7 @@ button:active {
 }
 
 .section {
-    margin: 1rem;
+    margin: 2rem;
 }
 
 div>.container {
@@ -30,7 +30,8 @@ div>.container {
 .link {
     color: aqua;
     text-decoration: none;
-    font-size: 14px
+    font-size: 14px;
+    margin: 1.1rem;
 }
 
 .link:hover {
@@ -38,7 +39,7 @@ div>.container {
 }
 
 .link:active {
-    color: rgb(38, 104, 128);
+    color: aqua;
 }
 
 #anchor {
@@ -63,5 +64,19 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 4rem;
+}
+
+.background {
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 5px;
+}
+
+.find {
+    margin-top: 1rem;
+}
+
+h2 {
+    padding: 1rem;
 }

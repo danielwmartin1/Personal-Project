@@ -165,6 +165,10 @@ header ul {
     background-color: #0fa9c1;
 }
 
+.p {
+    width: 90%;
+}
+
 .section {
     padding: 20px;
     margin: 20px 0;
@@ -195,6 +199,7 @@ header ul {
 #tech {
     text-align: center;
     color: #fff;
+    padding-top: 2rem;
 }
 
 .main h1 {
@@ -218,7 +223,7 @@ header ul {
     font-weight: bold;
     transition: background-color 0.3s ease;
     display: none;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 .menu-toggle:hover {
@@ -257,10 +262,6 @@ header ul {
     width: 150px;
 }
 
-#tech {
-    text-align: center;
-    color: #fff;
-}
 
 
 /* Media Queries for Responsiveness */
