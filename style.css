@@ -172,11 +172,6 @@ header ul {
     border-radius: 5px;
 }
 
-#about_main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 #experience {
     display: flex;

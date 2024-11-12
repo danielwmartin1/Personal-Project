@@ -1,6 +1,10 @@
 body {
-    background-image: url('./images/bluegold.jpg');
+    background-image: url('./images/bluelines.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+#about_main {
+    margin-top: 4rem;
 }

@@ -57,3 +57,11 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+#contact_main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+}
