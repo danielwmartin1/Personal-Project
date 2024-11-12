@@ -1,3 +1,13 @@
+/* Variables */
+:root {
+    --primary-color: #61dafb;
+    --secondary-color: #0fa9c1;
+    --tertiary-color: #124047;
+    --background-color: #183250;
+    --text-color: #fff;
+    --font-family: 'Roboto', sans-serif;
+}
+
 /* Styles */
 * {
     margin: 0;
@@ -6,33 +16,33 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-size: cover;
-    line-height: 1.6;    
-    background-image: url("./images/teal.jpg");
+    font-family: var(--font-family);
+    background-image: url("./images/bluegradient.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    line-height: 1.6;
 }
 
 .about-me-email {
-    color: #61dafb;
+    color: var(--primary-color);
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 .about-me-email:hover {
-    color: #0fa9c1;
+    color: var(--secondary-color);
 }
 
 .about-me-email:active {
-    color: #124047;
+    color: var(--tertiary-color);
 }
 
 .about-me-email:visited {
-    color: #61dafb;
+    color: var(--primary-color);
 }
 
 .about-me-email:focus {
@@ -55,10 +65,10 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #183250;
-    color: #fff;
+    background-color: var(--background-color);
+    color: var(--text-color);
     text-align: center;
-    border-top: 3px solid #61dafb;
+    border-top: 3px solid var(--primary-color);
     padding: 10px;
 }
 
@@ -68,20 +78,19 @@ h2 {
 }
 
 header {
-    background: #282c34;
-    color: #fff;
+    background: var(--background-color);
+    color: var(--text-color);
     padding: 10px 0 !important;
     margin: 0 !important;
-    border-bottom: 3px solid #61dafb;
+    border-bottom: 3px solid var(--primary-color);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #183250;
 }
 
 header a {
-    color: #61dafb;
+    color: var(--primary-color);
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
@@ -89,7 +98,7 @@ header a {
 }
 
 header a:hover {
-    color: #0fa9c1;
+    color: var(--secondary-color);
 }
 
 header li {
@@ -131,7 +140,7 @@ header ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #fff;
+    color: var(--text-color);
     justify-content: center;
     background-position: center;
     min-height: 50vh;
@@ -150,7 +159,7 @@ header ul {
 
 .menu-toggle {
     cursor: pointer;
-    background-color: #61dafb;
+    background-color: var(--primary-color);
     color: #282c34 !important;
     border: none;
     padding: 5px;
@@ -163,7 +172,7 @@ header ul {
 }
 
 .menu-toggle:hover {
-    background-color: #0fa9c1;
+    background-color: var(--secondary-color);
 }
 
 .p {
@@ -173,7 +182,7 @@ header ul {
 .section {
     padding: 20px;
     margin: 20px 0;
-    color: #fff;
+    color: var(--text-color);
     border-radius: 5px;
 }
 
@@ -187,7 +196,7 @@ header ul {
 
 #name {
     font-size: 2em;
-    color: #fff;
+    color: var(--text-color);
 }
 
 #profile {
@@ -198,68 +207,8 @@ header ul {
 
 #tech {
     text-align: center;
-    color: #fff;
+    color: var(--text-color);
     padding-top: 2rem;
-}
-
-.main h1 {
-    font-size: 2em;
-    color: #282c34;
-}
-
-.main p {
-    line-height: 1.6;
-    text-align: center;
-}
-
-.menu-toggle {
-    cursor: pointer;
-    background-color: #61dafb;
-    color: #282c34 !important;
-    border: none;
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 12px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-    display: none;
-    margin: 10px auto;
-}
-
-.menu-toggle:hover {
-    background-color: #0fa9c1;
-}
-
-.section {
-    padding: 20px;
-    margin: 20px 0;
-    color: #fff;
-    border-radius: 5px;
-}
-
-#about_main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-#experience {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 1rem;
-}
-
-#name {
-    font-size: 2em;
-    color: #fff;
-}
-
-#profile {
-    margin-bottom: 20px;
-    border-radius: 50%;
-    width: 150px;
 }
 
 .logo-container {
@@ -268,10 +217,6 @@ header ul {
 
 /* Media Queries for Responsiveness */
 @media (max-width: 1024px) {
-    .container {
-        width: 95%;
-    }
-
     .main h1 {
         font-size: 1.8em;
     }
@@ -295,10 +240,6 @@ header ul {
 }
 
 @media (max-width: 768px) {
-    .container {
-        width: 90%;
-    }
-        
     footer {
         padding: auto;
     }

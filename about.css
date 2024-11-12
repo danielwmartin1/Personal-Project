@@ -5,6 +5,13 @@ body {
     background-position: center;
 }
 
-#about_main {
-    margin-top: 4rem;
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+    flex: 1;
 }
