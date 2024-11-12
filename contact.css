@@ -50,3 +50,10 @@ div>.container {
     color: white;
     font-size: 14px;
 }
+
+body {
+    background-image: url('./images/bluediamond.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

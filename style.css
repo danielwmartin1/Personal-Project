@@ -8,9 +8,14 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-size: cover;
-    line-height: 1.6;
-    background-image: url("../images/smoke.jpg");
+    line-height: 1.6;    
+    background-image: url("./images/teal.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .about-me-email {
@@ -31,9 +36,6 @@ body {
 }
 
 .about-me-email:focus {
-    color: #61dafb;
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -42,6 +44,8 @@ body {
     width: 90%;
     margin: auto;
     overflow: auto;
+    flex: 1;
+}
     margin-top: 0;
     margin-bottom: 2.5rem;
 }
@@ -65,7 +69,8 @@ h2 {
 header {
     background: #282c34;
     color: #fff;
-    padding: 20px 0;
+    padding: 10px 0 !important;
+    margin: 0 !important;
     border-bottom: 3px solid #61dafb;
     display: flex;
     justify-content: center;
