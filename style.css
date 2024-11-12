@@ -118,7 +118,7 @@ header ul {
     text-align: center;
     margin: auto;
     width: 100%;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
     gap: 3rem;
     padding: 20px;
     margin-bottom: 3rem;
@@ -293,6 +293,11 @@ header ul {
     #profile {
         width: 100px;
     }
+
+    .logos {
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+        gap: 2rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -327,5 +332,10 @@ header ul {
 
     #profile {
         width: 80px;
+    }
+
+    .logos {
+        grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+        gap: 1rem;
     }
 }
