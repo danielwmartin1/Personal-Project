@@ -36,6 +36,10 @@ body {
 }
 
 .about-me-email:focus {
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -45,9 +49,6 @@ body {
     margin: auto;
     overflow: auto;
     flex: 1;
-}
-    margin-top: 0;
-    margin-bottom: 2.5rem;
 }
 
 footer {

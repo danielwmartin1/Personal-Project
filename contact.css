@@ -27,24 +27,16 @@ div>.container {
     align-items: center;
 }
 
-.link {
-    color: aqua;
-    text-decoration: none;
-    font-size: 14px;
-    margin: 1.1rem;
-}
-
-.link:hover {
-    color: yellow;
-}
-
-.link:active {
-    color: aqua;
+img {
+    width: 60px;
+    margin: 2rem;
 }
 
 #anchor {
     color: aqua;
     text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .find {
